@@ -18,7 +18,7 @@ Gem::Specification.new do |gem|
 
   gem.required_ruby_version = ">= 2.0.0"
 
-  gem.add_dependency "activesupport", "~> 4.0" if RUBY_VERSION < '2.2.2'
+  gem.add_dependency "activesupport", ">= 4.0" if RUBY_VERSION < '2.2.2'
   gem.add_dependency "nokogiri", "~> 1.6.0" if RUBY_VERSION < '2.1.0'
   gem.add_dependency "html-pipeline"
 
