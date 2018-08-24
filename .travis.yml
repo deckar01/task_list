@@ -9,6 +9,6 @@ rvm:
   - 2.1
   - 2.2
 env:
-  - TRAVIS_NODE_VERSION="7"
+  - TRAVIS_NODE_VERSION="8"
 notifications:
   email: false
