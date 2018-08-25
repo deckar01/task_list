@@ -41,7 +41,7 @@
     "coffee-script": "^1.12.5",
     "coffeelint": "^1.16.0",
     "node-sass": "^4.5.2",
-    "phantomjs": "^1.9.19",
+    "phantomjs-prebuilt": "^2.1.16",
     "webpack": "^2.5.1"
   }
 }
